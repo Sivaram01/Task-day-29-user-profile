@@ -32,17 +32,17 @@ import { useHistory } from "react-router-dom";
        <div className="input-group flex-nowrap my-3">
        <input type="text" className="form-control" name="name" 
         onChange={event =>onInputChange(event)} placeholder="Username"  
-       aria-label="Username" aria-describedby="addon-wrapping"/>
+       aria-label="Username" aria-describedby="addon-wrapping" required/>
       </div>
        <div className="input-group flex-nowrap my-3">
        <input type="email" className="form-control" name="email" 
         onChange={event =>onInputChange(event)} placeholder="Email" 
-        aria-label="Email" aria-describedby="addon-wrapping"/>
+        aria-label="Email" aria-describedby="addon-wrapping" required/>
       </div>
        <div className="input-group flex-nowrap my-3">
        <input type="number" className="form-control" name= "phoneNumber"  
         onChange={event =>onInputChange(event)} placeholder=" phoneNumber" 
-        aria-label=" PhoneNumber" aria-describedby="addon-wrapping"/>
+        aria-label=" PhoneNumber" aria-describedby="addon-wrapping" required/>
       </div>
       
       <button type="sumbit" className="btn btn-primary w-100">Add User</button>
